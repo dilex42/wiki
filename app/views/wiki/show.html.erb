@@ -1,0 +1,8 @@
+<h1>Wiki#show</h1>
+
+<h2>Title : <%= @page.title %></h2>
+<p>
+text : <%= @page.text %>
+</p>
+<p>
+<%= link_to 'Edit Article', action: "edit", title: @page.title %>
